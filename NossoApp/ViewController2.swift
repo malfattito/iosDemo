@@ -8,19 +8,18 @@
 import UIKit
 
 class ViewController2: UIViewController {
-
+    
+    
+    @IBAction func returnButton(_ sender: Any) {
+        self.dismiss(animated: true) {
+            print("Voltando para Home")
+        }
+    }
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         print("TELA 2 - FOI CARREGADA")
-    }
-    
-    @IBAction func retornaTela(_ sender: Any)
-    {
-        self.dismiss(animated: true)
-        {
-            print("VOLTANDO PARA A TELA 1")
-        }
     }
     
     override func viewWillAppear(_ animated:Bool)

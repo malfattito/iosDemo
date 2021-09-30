@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00CE94F326FD33840032E030 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CE94F226FD33840032E030 /* ViewController3.swift */; };
-		00CE94F726FD37B40032E030 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CE94F626FD37B40032E030 /* DataSource.swift */; };
-		00CE94FB26FD3B480032E030 /* Contato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CE94FA26FD3B480032E030 /* Contato.swift */; };
-		00CE94FF26FD46160032E030 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CE94FE26FD46160032E030 /* MyCell.swift */; };
 		00F361FD26D84F1800863237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F361FC26D84F1800863237 /* AppDelegate.swift */; };
 		00F361FF26D84F1800863237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F361FE26D84F1800863237 /* SceneDelegate.swift */; };
 		00F3620126D84F1800863237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F3620026D84F1800863237 /* ViewController.swift */; };
@@ -18,13 +14,13 @@
 		00F3620626D84F1D00863237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F3620526D84F1D00863237 /* Assets.xcassets */; };
 		00F3620926D84F1D00863237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F3620726D84F1D00863237 /* LaunchScreen.storyboard */; };
 		00F3621326D85F6600863237 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F3621226D85F6600863237 /* ViewController2.swift */; };
+		5731B78026FD3685007FAACD /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5731B77F26FD3685007FAACD /* ViewController3.swift */; };
+		5731B78326FD3709007FAACD /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5731B78226FD3709007FAACD /* DataSource.swift */; };
+		5731B78626FD3A98007FAACD /* Contato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5731B78526FD3A98007FAACD /* Contato.swift */; };
+		5731B79126FD463F007FAACD /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5731B79026FD463F007FAACD /* MyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00CE94F226FD33840032E030 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
-		00CE94F626FD37B40032E030 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
-		00CE94FA26FD3B480032E030 /* Contato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contato.swift; sourceTree = "<group>"; };
-		00CE94FE26FD46160032E030 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		00F361F926D84F1800863237 /* NossoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NossoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F361FC26D84F1800863237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00F361FE26D84F1800863237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +30,10 @@
 		00F3620826D84F1D00863237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00F3620A26D84F1D00863237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00F3621226D85F6600863237 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		5731B77F26FD3685007FAACD /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		5731B78226FD3709007FAACD /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		5731B78526FD3A98007FAACD /* Contato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contato.swift; sourceTree = "<group>"; };
+		5731B79026FD463F007FAACD /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,14 +70,14 @@
 				00F361FE26D84F1800863237 /* SceneDelegate.swift */,
 				00F3620026D84F1800863237 /* ViewController.swift */,
 				00F3621226D85F6600863237 /* ViewController2.swift */,
-				00CE94F226FD33840032E030 /* ViewController3.swift */,
-				00CE94FA26FD3B480032E030 /* Contato.swift */,
-				00CE94F626FD37B40032E030 /* DataSource.swift */,
-				00CE94FE26FD46160032E030 /* MyCell.swift */,
 				00F3620226D84F1800863237 /* Main.storyboard */,
 				00F3620526D84F1D00863237 /* Assets.xcassets */,
 				00F3620726D84F1D00863237 /* LaunchScreen.storyboard */,
 				00F3620A26D84F1D00863237 /* Info.plist */,
+				5731B77F26FD3685007FAACD /* ViewController3.swift */,
+				5731B78226FD3709007FAACD /* DataSource.swift */,
+				5731B78526FD3A98007FAACD /* Contato.swift */,
+				5731B79026FD463F007FAACD /* MyCell.swift */,
 			);
 			path = NossoApp;
 			sourceTree = "<group>";
@@ -152,12 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00CE94FB26FD3B480032E030 /* Contato.swift in Sources */,
-				00CE94F726FD37B40032E030 /* DataSource.swift in Sources */,
-				00CE94F326FD33840032E030 /* ViewController3.swift in Sources */,
+				5731B78626FD3A98007FAACD /* Contato.swift in Sources */,
+				5731B78326FD3709007FAACD /* DataSource.swift in Sources */,
+				5731B78026FD3685007FAACD /* ViewController3.swift in Sources */,
 				00F3620126D84F1800863237 /* ViewController.swift in Sources */,
 				00F3621326D85F6600863237 /* ViewController2.swift in Sources */,
-				00CE94FF26FD46160032E030 /* MyCell.swift in Sources */,
+				5731B79126FD463F007FAACD /* MyCell.swift in Sources */,
 				00F361FD26D84F1800863237 /* AppDelegate.swift in Sources */,
 				00F361FF26D84F1800863237 /* SceneDelegate.swift in Sources */,
 			);

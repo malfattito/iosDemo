@@ -1,0 +1,31 @@
+//
+//  ProdutosViewController.swift
+//  NossoApp
+//
+//  Created by Silvano Malfatti on 07/10/21.
+//
+
+import UIKit
+
+class ProdutosViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.title = "Produtos"
+        self.navigationItem.title = "Produtos"
+        self.navigationItem.backButtonTitle = "Estabelecimentos"
+        // Do any additional setup after loading the view.
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
